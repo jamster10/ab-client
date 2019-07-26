@@ -58,6 +58,7 @@ function App() {
     }
     try{
       const newBooking = await BookingApi.createBooking(validatedBooking);
+      bookingData.bookings.push(newBooking);
 
       setLoading(false);
       setModal(false);
