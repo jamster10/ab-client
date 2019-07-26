@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import HeaderBar from './components/HeaderBar/HeaderBar'
 import CreateBookingModal from './components/CreateBookingModal/CreateBookingModal';
 import { useForm } from './utils/useForm'
+import { getMinTime, startTime } from './utils/handleTime'
 import './App.css';
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
     street_address: '',
     city: '',
     state: '',
-    zip: ''
-  })
-
-
+    zip: '',
+    type: 'none',
+    date: getMinTime(),
+    time: startTime()
+  });
 
   return (
     <div className="App">
@@ -32,10 +34,6 @@ function App() {
           onRequestClose={() => setModal(false)}
           userFields={fields}
           handleUserFields={setFields}
-          // bookingFields={bookingFields}
-          // bookingFields={bookingFields}
-
-          action='new'
         />
     </div>
   );

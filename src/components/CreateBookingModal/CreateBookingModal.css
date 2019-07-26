@@ -5,16 +5,75 @@
   left: 50%;
   transform: translate(-50%, 0);
   width: 600px;
-  height: 400px;
+  height: 440px;
   box-shadow: 2px 2px grey;
   border-radius: 8px;
   background-color: white;
-  /* color: white; */
   outline: none;
 }
 
 .Modal h2{
   margin-left: 10px;
   margin-top: 10px;
+  margin-bottom: 0px;
+}
 
+.Modal form{
+  width: 100%;
+  padding: 5px 10px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+ .user-info, .booking-info{
+  width: 45%;
+  height:100%;
+  border: none;
+}
+
+.user-info{
+  padding-left: 0px;
+}
+
+.input-section input,  .booking-info input{
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 100%
+}
+
+.input-section label, .input-section input, select{
+  display: block; 
+}
+
+.input-section label{
+  margin-bottom: 5px;
+}
+
+.small-input-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+#zip, #state{
+  width: 100px;
+  
+}
+
+.booking-info .input-type {
+  height: 120px;
+}
+
+#type{
+  height: 34px;
+  width: 100%;
+}
+form .create-btn{
+  position: absolute;
+  right: 90px;
+  bottom: 100px;
+  font-size:1.2em
 }
