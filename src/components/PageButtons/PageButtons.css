@@ -1,0 +1,16 @@
+.button-holder{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.button-holder > button {
+    background-color: rgb(242, 150, 72);
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey;
+    align-self: center;
+    margin-right: none;
+    padding-right: none;
+}

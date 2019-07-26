@@ -2,7 +2,6 @@ import React from 'react'
 import { TableRow } from '../TableRow/TableRow'
 import { Table, Thead, Tbody, Tr, Th } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
-import moment from 'moment'
 
 export default function BookingTable({bookings = []}) {
   

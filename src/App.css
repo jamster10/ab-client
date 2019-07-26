@@ -24,3 +24,13 @@
   justify-content: space-between;
 }
 
+.btn-container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.btn-container button{
+  margin-right: 20px;
+  margin-left: 20px;
+}
