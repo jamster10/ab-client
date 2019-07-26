@@ -1,0 +1,19 @@
+.loading-gif{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.4);
+  z-index: 99;
+  left: 0;
+}
+
+.loading-gif img{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 30%;
+  left: 0;
+  right:0;
+  margin: auto;
+
+}

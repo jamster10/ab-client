@@ -74,6 +74,10 @@
 form .create-btn{
   position: absolute;
   right: 90px;
-  bottom: 100px;
+  bottom: 80px;
   font-size:1.2em
+}
+
+.error-view{
+  color: red;
 }

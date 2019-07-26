@@ -13,4 +13,18 @@ export const startTime = () => {
   return moment().format('HH:mm')
 }
 
+export const parseForm = fields => {
+  
+  return {
+    email: fields.email,
+    name: fields.name,
+    address: `${fields.address}\n${fields.city}, ${fields.state}, ${fields.zip}`,
+    booking_type: fields.type,
+    booking_date: fields.date,
+    booking_time: fields.time,
+  }
+
+}
+
+
 
