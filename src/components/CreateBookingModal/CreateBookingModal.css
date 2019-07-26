@@ -1,0 +1,20 @@
+.Modal {
+  z-index:100;
+  position: absolute;
+  top:70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 2px grey;
+  border-radius: 8px;
+  background-color: white;
+  /* color: white; */
+  outline: none;
+}
+
+.Modal h2{
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
