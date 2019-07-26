@@ -1,3 +1,3 @@
 export default {
-  API_ENDPOINT: 'http://localHost:8000/booking'
+  API_ENDPOINT: 'https://intense-brushlands-31662.herokuapp.com/booking'
 }
