@@ -1,7 +1,7 @@
 # A full stack application built on React, Express, Node, & MySQL.
 This app demonstrates grabbing data from a seeded backend, and allowing a user to see and create an additional data point.
 
-The app is built with with Modern React, with hooks, and effects, and is fully responsive.
+The app is built with with Modern React, with hooks, including useEffect, and useState, and is fully responsive.
 
 
 ## Available Scripts
