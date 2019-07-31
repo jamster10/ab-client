@@ -1,3 +1,3 @@
 export default {
-  API_ENDPOINT: 'https://intense-brushlands-31662.herokuapp.com/booking'
+  API_ENDPOINT: 'https://ab-booking.herokuapp.com/booking'
 }
